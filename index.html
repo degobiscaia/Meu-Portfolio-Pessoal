@@ -201,12 +201,23 @@
                 <h1>Quem eu sou</h1>
                 <p>&nbsp;Olá meu nome é Diego Biscaia, cursando 2º Semestre em Engenharia de Software, estou em busca da minha primeira oportunidade em desenvolvimento de software, e ao longo da minha trajetória rumo ao desenvolvimento web, busquei sempre colocar em prática o que eu apreendi por meio de projetos práticos, utilizando a minha criatividade na criação de projetos próprios com implementação de novas funcionalidades, como por exemplo por meio da criação interações e animações em sites utilizando HTML,CSS e javascript, estou disposto a apreender novas tecnologias e a me desenvolver no desenvolvimento web.</p>
             </article>
-        <section class="secao-6" id="Contate-me">
+
+        <section id="secao-6">
             <h2>Contate-me</h2>
-            <div id="formulario">
-                <h1>diegobiscaiadiego@gmail.com</h1>
+            <div class="container">
+                <h2>Contate-me</h2>
+                    <form form action="https://formsubmit.co/diegobiscaiadiego@gmail.com" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+                    <button type="submit">Enviar</button>
+                    </form>
             </div>
         </section>
+
     </main>
     <footer>
         <p>Site desenvolvido por <a href="https://github.com/degobiscaia">Diego Biscaia</a>.<a href="#Inicio"><i class="fa-solid fa-circle-up" id="voltar"></i></a></p>
